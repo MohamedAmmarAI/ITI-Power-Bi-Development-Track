@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE family SYSTEM "C:\Users\EL.DAWLIA\Desktop\family.dtd">
+<family>
+	<Grandfather>
+		<Father job="Engineer">
+			<Mother>Eman</Mother>
+			<Daughter age="24" job="Doctor">Enas</Daughter>
+			<Son age="30" sport="football">mohamed</Son>
+		</Father>
+		<Uncle>Dai</Uncle>
+		<Uncle>Alaa</Uncle>
+		<Aunt sons="2">sohaila</Aunt>
+	</Grandfather>
+</family>
