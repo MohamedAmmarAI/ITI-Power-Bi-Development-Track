@@ -1,0 +1,5 @@
+case
+    when KPIValue("QtyKPI")>1000 then 1
+    when KPIValue("QtyKPI")<1000 then -1
+    else 0
+end
