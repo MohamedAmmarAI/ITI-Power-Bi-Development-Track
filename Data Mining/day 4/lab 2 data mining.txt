@@ -1,0 +1,168 @@
+# Data Mining Lab 2 Answer
+
+## Cluster: (1)
+
+Initial Points:
+A1 = (2,10), A2 = (2,5), A3 = (8,4), A4 = (5,8), A5 = (7,5), A6 = (6,4), A7 = (1,2), A8 = (4,9)
+
+Initial Centroids:
+C1 = A1 = (2,10), C2 = A3 = (8,4), C3 = A7 = (1,2)
+
+Distance Calculations:
+Distance to C1 (2,10):
+- A1 = 0
+- A2 = 5
+- A3 = 8.485
+- A4 = 3.6
+- A5 = 7.07
+- A6 = 7.21
+- A7 = 8.06
+- A8 = 2.23
+
+Distance to C2 (8,4):
+- A1 = 8.485
+- A2 = 6.082
+- A3 = 0
+- A4 = 5
+- A5 = 1.414
+- A6 = 2
+- A7 = 7.28
+
+Distance to C3 (1,2):
+- A1 = 8.06
+- A2 = 3.16
+- A3 = 7.28
+- A4 = 7.21
+- A5 = 6.71
+- A6 = 5.385
+- A7 = 0
+- A8 = 7.62
+
+Initial Cluster Assignment:
+- A1 → C1
+- A2 → C3
+- A3 → C2
+- A4 → C1
+- A5 → C2
+- A6 → C2
+- A7 → C3
+- A8 → C1
+
+Updated Centroids:
+- Cluster 1: (3.67, 9)
+- Cluster 2: (7, 4.33)
+- Cluster 3: (1.5, 3.5)
+
+
+recalculate the distance from each point to the cluster .
+
+Distance to C1 (3.67,9):
+- A1 = 1.86
+- A2 = 4.74
+- A3 = 6.61
+- A4 = 1.66
+- A5 = 5.20
+- A6 = 5.52
+- A7 = 7.5
+- A8 = 0.33
+
+Distance to C2 (7,4.33):
+- A1 = 7.56
+- A2 = 5.05
+- A3 = 1.05
+- A4 = 4.18
+- A5 = 0.67
+- A6 = 1.05
+- A7 = 6.44
+- A8 = 5.55
+
+
+Distance to C3 (1.5,3.5):
+- A1 = 6.52
+- A2 = 1.58
+- A3 = 6.53
+- A4 = 5.70
+- A5 = 5.70
+- A6 = 4.55
+- A7 = 1.58
+- A8 = 6.10
+
+
+- compare distance between each point and 3 group .
+
+A1 , A4 , A8 ----> C1
+A3 , A5 , A6 ----> C2
+A2 , A7  --------> C3
+
+
+the mean of the clusters doesn't change , so it is the final result .
+
+
+
+
+## Cluster: (2)
+
+
+Initial Centroids:
+
+C1 = (1,1), C2 = (5,7), C3 = (3,4)
+
+Distance to C1 (1,1):
+- A1 = 0
+- A2 = 1.12
+- A3 = 3.61
+- A4 = 7.21
+- A5 = 5
+- A6 = 5.65
+- A7 = 4.72
+
+
+Distance to C2 (5,7):
+- A1 = 7.21
+- A2 = 6.12
+- A3 = 4.47
+- A4 = 0
+- A5 = 2.5
+- A6 = 1.06
+- A7 = 2.5
+
+
+Distance to C3 (3,4):
+- A1 = 3.61
+- A2 = 2.5
+- A3 = 0
+- A4 = 4.24
+- A5 = 1.12
+- A6 = 2.80
+- A7 = 0.71
+
+A1,A2 ------> C1
+A4,A6 ------> C2
+A3,A5,A7  -------> C3 
+
+
+- mean of c1 = (1.25,1.5)
+- mean of c2 = (4.75,6)
+- mean of c3 = (3.33,4.5)
+
+
+- we should recalculate the distance from each point to the new cluster mean 
+
+----> cluster1   A1,A2----> C1
+----> cluster2   A4,A6----> C2
+----> cluster3   A3,A5,A7
+
+--  assign to each cluster compared to step2 , so it is the final solution 
+
+
+Final Cluster Assignment:
+- Cluster1 (C1) → A1,A2
+- Cluster2 (C2) → A4,A6
+- Cluster3 (C3) → A3,A5,A7
+
+
+
+
+
+
+
